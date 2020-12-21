@@ -1,0 +1,299 @@
+@font-face {
+    font-family: Foyura;
+    src: url("Foyura.otf");
+}
+
+*{
+    color: #d4d4d4;
+    font-family: Foyura;
+    cursor: url("img/cursor.png"), auto;
+    line-height: 1.4em;
+    letter-spacing: 0.1em;
+    box-sizing: border-box;
+}
+
+/* Home */
+
+body{
+    font-size: 1.8em;
+    background: #987078;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    background-image: url(img/homeBG.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 124.5%;
+    margin-top: 5.5em;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 1.2em;
+}
+
+h2{
+    font-size: 1em;
+}
+
+.homeTittle{
+    font-size: 2.3em;
+}
+
+.homeSubtittle{
+    margin-top: -2em;
+}
+
+ul{
+    list-style-image: url(img/listItem.png);
+    margin-top: 2em;
+}
+
+li{
+    padding: 0.5em;
+}
+
+a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+/* About me */
+
+.about section{
+    margin: 2em;
+    width: 35vw;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about li{
+    list-style: url(/img/brokenHeart.png);
+}
+
+.about li:nth-child(-n + 2){
+    list-style: url(/img/heart.png);
+}
+
+.photo {
+    width: 20vw;
+}
+
+/* My work */
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1em 9%;
+}
+
+.navigation div {
+    margin: 0;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline;
+    width: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.projects {
+    margin: 0;
+    padding: 0;
+}
+
+.projects li{
+    background-image: url(img/hi.jpg);
+    background-position: top;
+    background-size: auto 124.5%;
+    filter: brightness(80%);
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 85vw;
+    height: 38vw;
+    margin: 2em auto 2em auto;
+    background-color: #5c5b73;
+    text-align: center;
+    transition: 0.6s;
+    transition-timing-function: ease;
+    padding: 0;
+}
+
+.projects li:nth-child(2){
+    background-image: url(img/poyuraProduct.jpg);
+}
+
+.projects li:last-child{
+    background-image: url(img/season.jpg);
+}
+
+.projects li:hover{
+    filter: brightness(100%);
+    opacity: 100%;
+    width: 90vw;
+    height: 43vw;
+    text-align: center;
+    transition: 0.6s;
+    transition-timing-function: ease
+}
+
+/* Projects */
+
+.projectTittle{
+    text-align: center;
+}
+
+section{
+    margin-bottom: 8em;
+}
+
+.metaDC{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8em;
+}
+
+.intro{
+    width: 35vw;
+    margin: 2em;
+}
+
+.designChallenge{
+    width: 35vw;
+}
+
+.metadata{
+    width: 35vw;
+}
+
+.metadataList{
+    margin: 0;
+    padding: 0;
+}
+
+.metadataList li{
+    padding: 0;
+    list-style: none;
+}
+
+.projectSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectSection h3{
+    margin-top: 0;
+}
+
+.projectSection div{
+    width: 35vw;
+    margin: 2em;
+}
+
+.projectSection p{
+    margin-bottom: 0;
+}
+
+.projectImg{
+    margin-top: 0;
+    width: 35vw;
+    height: auto;
+}
+
+.questionnaire{
+    height: 35vw;
+}
+
+.questionnaireOverview{
+    text-align: center;
+}
+
+.questionnaires{
+    width: 75vw;
+    margin: auto;
+}
+
+.questionnaires{
+    margin-bottom: 7em;
+}
+
+.nextProject{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    margin: 0;
+    padding: 15vw 0 15vw 0;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.nextProject a{
+    width: fit-content;
+    margin: auto;
+}
+
+.nextProject:hover{
+    transition: 0.5s;
+    background-color: #5c5b73;
+    opacity: 100%;
+}
+
+
+/* Contact */
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact p{
+    margin-bottom: 2em;
+}
+
+.contact img{
+    margin-right: 1em;
+    background-color: #d4d4d4;
+}
+
+.contact p:last-child{
+    margin-bottom: 0;
+}
+
+.contact section{
+    margin: 2em;
+    width: 35vw;
+}
+
+.contact img:first-child:hover{
+    src: url(/img/instaHover.png);
+    background-color: white;
+
+}
+
+.contact section:first-child a:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
