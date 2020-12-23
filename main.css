@@ -79,11 +79,11 @@ a:hover{
 }
 
 .about li{
-    list-style: url(/img/brokenHeart.png);
+    list-style: url(img/brokenHeart.png);
 }
 
 .about li:nth-child(-n + 2){
-    list-style: url(/img/heart.png);
+    list-style: url(img/heart.png);
 }
 
 .photo {
